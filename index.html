@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelligent Change</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>The Five Minute Journal</h1>
+        <h2 id="displayDateTime"></h2>
+    </header>
+    <section id="phrase">
+        <button id="btn">Press for your daily quote</button>
+        <div id="output">Press the button to generate a quote</div>
+    </section>
+ 
+        <main id="paper">
+            <div id="pattern">
+                    <div id="content">
+                            <section class="first">
+                                <h3>I am grateful for...</h3>
+                                <label for="main" class="question">What are you grateful for?</label>
+                                <input type="text" id="main" class="input-main">
+                                <button class="btn-main">Add here</button>
+                            </section>
+                            <div class="list-container">
+                                <ul aria-live="polite">
+                                    <li>I am grateful for my parents and Ana and Mark</li>
+                                </ul>
+                            </div>   
+
+                            <section class="second">
+                                <h3>What would make today great?</h3>
+                                <label for="main" class="affirmation">Name 3 things</label>
+                                <input type="text" id="main" class="input-main1">
+                                <button class="btn-main1">Add here</button>
+                            </section>
+                            <div class="list-container">
+                                <ul aria-live="polite" class="secondUl">
+                                    <li>Get an ice cream</li>
+                                    </ul>
+                            </div>   
+                            <section class="third">
+                                <h3>Write your daily affirmations...</h3>
+                                <label for="main" class="affirmation">Name 3 things</label>
+                                <input type="text" id="main" class="input-main2">
+                                <button class="btn-main2">Add here</button>
+                            </section>
+                            <div class="list-container">
+                                <ul aria-live="polite" class="thirdUl">
+                                    <li>I have to be more positive</li>
+                                </ul>
+                            </div>   
+                            <section class="fourth">
+                                <h3>Write your day's positive experiences..</h3>
+                                <label for="main" class="affirmation">Name 3 things</label>
+                                <input type="text" id="main" class="input-main3">
+                                <button class="btn-main3">Add here</button>
+                            </section>
+                            <div class="list-container">
+                                <ul aria-live="polite" class="fourthUl">
+                                    <li>Phone with David</li>
+                                </ul>
+                            </div>   
+                            <section class="fifth">
+                                <h3>What did you learn today?</h3>
+                                <label for="main" class="affirmation">Name 3 things</label>
+                                <input type="text" id="main" class="input-main4">
+                                <button class="btn-main4">Add here</button>
+                            </section>
+                            <div class="list-container">
+                                <ul aria-live="polite" class="fifthUl">
+                                    <li>Think more strategically</li>
+                                </ul>
+                            </div>   
+                    </div>        
+                </div>        
+        </main>
+        <footer class="words">
+            <figure>
+                <blockquote>
+                    <p>"A flower is always a beautiful motivation"</p>
+                </blockquote>
+                <figcaption>-Ivonne Benites, <cite>Planeta 2023</cite></figcaption>
+            </figure>
+        </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>

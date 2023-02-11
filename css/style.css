@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+@font-face {
+    font-family: 'Parisienne';
+    src: url(../fonts/Parisienne/Parisienne-Regular.ttf);
+}
+@font-face {
+    font-family: 'Great_Vibes';
+    src: url(../fonts/Great_Vibes/GreatVibes-Regular.ttf);
+}
+header{
+    background-image: url(../img/bg-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1{
+    font-family: 'Parisienne', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+h2#displayDateTime{
+    font-family: 'Great_Vibes',sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.words{
+    background-color: #fdffe7;
+    padding: 1.5%;
+}
+
+blockquote{
+    margin: 0;
+}
+blockquote p{
+    padding: 15px;
+    background: #ffd6c2;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Parisienne', sans-serif;
+}
+/*
+blockquote p::before{
+    content: '\201C';
+}
+blockquote p::after{
+    content: '\201D';
+}*/
+figcaption{
+    margin-left: 46%;
+}
+#paper{
+ 
+    display: flex;
+    flex-direction: column;
+  
+    box-shadow: 0 10px 22px -15px #2e397a;
+}
+.first{
+    padding: 1%;
+    background-color: #c4d4b1;
+    text-align: center;
+}
+.first h3{
+    font-family: 'Great_Vibes', sans-serif;
+    font-size: 2em;
+    padding-bottom: 2%;
+}
+.first .question{
+    font-family: 'Parisienne', sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 2%;
+}
+.first input{
+    margin-left: 3%;
+    padding:  1.5%;
+}
+.first .btn-main{
+    padding: 1%;
+    background-color: #ffd6c2;
+    color: black;
+    font-size: 1em;
+    border-radius: 20px;
+    font-family: 'Parisienne',sans-serif;
+    border: 2px solid #bba498;
+    cursor: pointer;
+}
+.list-container{
+    padding: 0.65em 2em 2em;
+}
+ul{
+    font-size: 1.15em;
+    padding: 0;
+    margin: 0 0 1.15em;
+    list-style: none;
+}
+li{
+    padding: 1.15em 0.5em;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #dedede;
+}
+.second{
+    padding: 1%;
+    background-color:  #ffd1d8;
+    text-align: center;
+}
+
+.second h3{
+    font-family: 'Great_Vibes', sans-serif;
+    font-size: 2em;
+    padding-bottom: 2%;
+}
+.second .affirmation{
+    font-family: 'Parisienne', sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 2%;
+}
+.second input{
+    margin-left: 3%;
+    padding:  1.5%;
+}
+.second .btn-main1{
+    padding: 1%;
+    background-color: #ffd6c2;
+    color: black;
+    font-size: 1em;
+    border-radius: 20px;
+    font-family: 'Parisienne',sans-serif;
+    border: 2px solid #bba498;
+    cursor: pointer;
+}
+
+.third{
+    padding: 1%;
+    background-color:  #bba498;
+    text-align: center;
+}
+
+.third h3{
+    font-family: 'Great_Vibes', sans-serif;
+    font-size: 2em;
+    padding-bottom: 2%;
+}
+.third .affirmation{
+    font-family: 'Parisienne', sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 2%;
+}
+.third input{
+    margin-left: 3%;
+    padding:  1.5%;
+}
+.third .btn-main2{
+    padding: 1%;
+    background-color:  #ffd6c2;
+    color: black;
+    font-size: 1em;
+    border-radius: 20px;
+    font-family: 'Parisienne',sans-serif;
+    border: 2px solid #ffd6c2;
+    cursor: pointer;
+}
+
+.fourth{
+    padding: 1%;
+    background-color:  #b2bda8;
+    text-align: center;
+}
+
+.fourth h3{
+    font-family: 'Great_Vibes', sans-serif;
+    font-size: 2em;
+    padding-bottom: 2%;
+}
+.fourth.affirmation{
+    font-family: 'Parisienne', sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 2%;
+}
+.fourth input{
+    margin-left: 3%;
+    padding:  1.5%;
+}
+.fourth .btn-main3{
+    padding: 1%;
+    background-color: #ffd6c2;
+    color: black;
+    border-radius: 20px;
+    font-size: 1em;
+    font-family: 'Parisienne',sans-serif;
+    border: 2px solid #bba498;
+    cursor: pointer;
+}
+.fifth{
+    padding: 1%;
+    background-color:  #a49d92;
+    text-align: center;
+}
+
+.fifth h3{
+    font-family: 'Great_Vibes', sans-serif;
+    font-size: 2em;
+    padding-bottom: 2%;
+}
+.fifth .affirmation{
+    font-family: 'Parisienne', sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 2%;
+}
+.fifth input{
+    margin-left: 3%;
+    padding:  1.5%;
+}
+.fifth .btn-main4{
+    padding: 1%;
+    background-color: #ffd6c2;
+    color: black;
+    font-size: 1em;
+    border-radius: 20px;
+    font-family: 'Parisienne',sans-serif;
+    border: 2px solid #bba498;
+    cursor: pointer;
+}
+.remove{
+    margin-left: 6%;
+    padding: 1%;
+    background-color: #ffd6c2;
+    border: 2px solid #ffd6c2;
+    border-radius: 10px;
+    color: black;
+    font-size: 22px;
+    font-family: 'Parisienne', sans-serif;
+}
+input{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+#content{
+    background-color: #f8edcd;
+}
+
+/*Generating of phrase */
+#phrase{
+    background-color: #BBa498;
+  
+    margin: 0 auto;
+    text-align: center;
+}
+#btn{
+    margin-top: 26px;
+    height: 80px;
+    width: 250px;
+    font-size: 27px;
+    background-color: #ffd6c2;
+    border-radius: 20px;
+    border: 2px solid white;
+    color:  black;
+    font-weight: 900;
+    font-family: 'Parisienne', sans-serif;
+}
+#output{
+    margin: 25px auto;
+    font-size: 23px;
+    color: white;
+    font-family: 'Parisienne', sans-serif;
+}
